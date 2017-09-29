@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
 }
 
-ul {
+ol, ul {
   padding: 0;
 }
 
@@ -25,4 +25,30 @@ li {
   margin: 10px;
   font-weight: bold;;
   cursor: pointer;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
 }
